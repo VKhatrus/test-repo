@@ -1,0 +1,7 @@
+version: '3'
+services:
+  web:
+    build: .
+    container_name: go-server
+    ports:
+      - "9000:9000"
